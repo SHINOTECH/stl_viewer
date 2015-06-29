@@ -52,9 +52,9 @@ private:
   QOpenGLVertexArrayObject vao;
   QOpenGLBuffer glBuffer;
 
-  // the (GL program) location of matrices
+  // the location of matrices in shaderProgram
   int projMatLoc, modelMatLoc, normalMatLoc;
-  // the location of lights
+  // the location of lights in shaderProgram
   int lightPosLoc1, lightPosLoc2, lightColLoc1, lightColLoc2;
 };
 

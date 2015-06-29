@@ -26,7 +26,7 @@ public:
   void setModel(Model*);
 
   // Creates a new model from an STL file. Deletes the previous model.
-  // silent: supresses the error messages if the file cannot be accessed
+  // silent: supresses the error message if the file cannot be accessed
   void loadStl(QString const& fileName, bool silent=false);
 
   // Loads a bundled example model.
@@ -42,7 +42,7 @@ private slots:
   void itsChristmas();
 
 private:
-  // The model is held here. Never NULL;
+  // The model is held here. Never NULL.
   model_ptr model;
 
   // camera and canvas

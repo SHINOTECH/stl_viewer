@@ -45,6 +45,7 @@ public:
   int vertexCount()          const { return count()/6;          }
 
 private:
+  // Interleaved vertex/normal/...
   QVector<GLfloat> glData;
 
 public:

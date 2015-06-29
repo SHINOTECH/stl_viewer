@@ -21,7 +21,7 @@ public:
   void setAspectRatio(qreal);
 
   // QPoint is used as a handy x-y pair.
-  // A proper solution would use three angles or, better, quaternions
+  // A proper solution would use three angles or, better, quaternions!
   void   rotateBy(QPoint const&);
   void   rotateTo(QPoint const&);
   QPoint rotatedTo() const;

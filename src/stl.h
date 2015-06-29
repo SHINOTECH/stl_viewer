@@ -19,12 +19,12 @@ struct Facet {
 typedef QVector<Facet> facet_vec;
 
 /*
- *  Read one facet from a stream.
+ * Reads one facet from a stream.
  */
 QDataStream& operator>>(QDataStream&, Facet&)     throw(Error);
 
 /*
- *  Read the whole content of an STl stream.
+ * Reads the whole content of an STL stream.
  * Performs basic validity checks of the data.
  */
 QDataStream& operator>>(QDataStream&, facet_vec&) throw(Error);

@@ -66,7 +66,7 @@ MainWindow::MainWindow(): model(new Model), camera() {
 
   flybyTimer = new QTimer(this);
 
-  // a two-state button for lights
+  // a two-state button for Christmas lights
   lightsButton = new QPushButton("lights");
   lightsButton->setCheckable(true);
   buttonLayout->addWidget(lightsButton);
